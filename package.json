@@ -1,0 +1,19 @@
+{
+  "name": "redis-counter-app",
+  "version": "1.0.0",
+  "description": "Dummy App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-OK": "echo \"OK\" && exit 0",
+    "integration-test": "pm2 start index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongodb": "^3.0.3",
+    "redis": "^2.8.0"
+  }
+}
